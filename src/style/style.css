@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.Header {
+    width: 400px;
+    margin: 0 auto 40px auto;
+    display: flex;
+    padding: 20px 0 20px 0;
+    justify-content: space-between;
+    font-size: 23px;
+    border-bottom: 2px red solid;
+}
+
+.link ,
+.goods-link {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    color: #4f7756;
+}
+
+.logIn {
+    background: bisque;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.goods-link-wrapper {
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods-title {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.goods-price {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.goods-img {
+    margin-top: 15px;
+}
+
+.goods-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.phone {
+    margin: 0 auto;
+    width: 255px;
+}
+
+.link-note-found {
+    margin-top: 20px;
+    display: block;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: darkcyan;
+}
+
+
